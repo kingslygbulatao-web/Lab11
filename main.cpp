@@ -1,5 +1,15 @@
 #include <iostream>
 
+// car rating service
+
+struct car
+{
+    int ModelYear;
+    std::string Model;
+    std::string Condition;
+    int Rating;
+}
+
 int main(){
 
     int x = 10;
