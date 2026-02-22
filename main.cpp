@@ -1,6 +1,18 @@
 #include <iostream>
 
 int main(){
-    std::cout<< "Hello World !" << std::endl;
+
+    int x = 10;
+    
+    int *ptr = nullptr;
+
+    ptr = &x;
+
+    *ptr = 6;
+
+    std::cout << "int element: " << *ptr << std::endl;
+
     return 0;
+
+
 }
