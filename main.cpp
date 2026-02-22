@@ -10,19 +10,15 @@ struct car
     int Rating;
 }
 
-int main(){
 
-    int x = 10;
+int main() {
+
+    int CarAmt;
+
+    std::cout << "How many Cars are u looking at today? " << std::endl;
+    std::cin >> CarAmt;
     
-    int *ptr = nullptr;
-
-    ptr = &x;
-
-    *ptr = 6;
-
-    std::cout << "int element: " << *ptr << std::endl;
-
-    return 0;
-
-
+    for(int i = 0; i < CarAmt; i++){
+        std::cout << i << " " << std::endl;
+    }
 }
